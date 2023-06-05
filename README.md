@@ -5,7 +5,7 @@ Multi-step bioinformatics pipeline to identify NEPC-specific, over-expressed gen
 This work is further described in: [citation to be added upon publication]
 
 ## Data availability
-RNAseq data was obtained from  a previously published (Beltran et al., 2016; Berger et al, 2019) clinical cohort of tissue from NEPC tumors (n = 27), benign prostate tissue (n = 66), locally advanced prostate cancer (PCA, n = 68), and mCRPC (n = 72).
+RNAseq data was obtained from  a previously published (Beltran et al., 2016; Berger et al, 2019) clinical cohort of tissue from neuroendocrine prostate cancer (NEPC, n=27) tumors, benign prostate tissue (n =66), locally advanced prostate cancer (PCA, n=68), and metastatic castration resistant prostate cancer (mCRPC, n=72).
 
 The GTEx data used for the analyses described were obtained from the [GTEx Portal](https://gtexportal.org/home/) on 03/01/2015 and/or dbGaP accession number [phs000424.v5.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000424.v5.p1) on 03/01/2015
 
