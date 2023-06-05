@@ -7,7 +7,7 @@ This work is further described in: [citation to be added upon publication]
 ## Data availability
 RNAseq data was obtained from  a previously published (Beltran et al., 2016; Berger et al, 2019) clinical cohort of tissue from NEPC tumors (n = 27), benign prostate tissue (n = 66), locally advanced prostate cancer (PCA, n = 68), and mCRPC (n = 72).
 
-The GTEx data used for the analyses described were obtained from the [GTEx Portal](https://gtexportal.org/home/) on 03/01/2015 and/or dbGaP accession number phs000424.vN.pN on 03/01/2015
+The GTEx data used for the analyses described were obtained from the [GTEx Portal](https://gtexportal.org/home/) on 03/01/2015 and/or dbGaP accession number [phs000424.v5.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000424.v5.p1) on 03/01/2015
 
 
 ## Pipeline expected input:
@@ -28,28 +28,28 @@ GTEx_sample_tissue_subtype : list corresponding to tissue subtypes for each samp
 
 
 #### Gene-level analysis
-benign.TPM : matrix (rows genes, columns subject) of gene TPM of benign prostate samples
+benign.TPM : matrix (rows genes, columns subject) of benign prostate samples gene TPM
 
-PCa.TPM  : matrix (rows genes, columns subject) of gene TPM of PCa samples
+PCa.TPM  : matrix (rows genes, columns subject) of PCa samples gene TPM
 
-CRPC.TPM  : matrix (rows genes, columns subject) of gene TPM of CRPC samples
+CRPC.TPM  : matrix (rows genes, columns subject) of CRPC samples gene TPM
 
-NEPC.TPM  : matrix (rows genes, columns subject) of gene TPM of NEPC samples
+NEPC.TPM  : matrix (rows genes, columns subject) of NEPC samples gene TPM
 
-GTEx.TPM  : matrix (rows genes, columns subject) of gene TPM of GTEx tissue samples
+GTEx.TPM  : matrix (rows genes, columns subject) of GTEx tissue samples gene TPM
 
-GTEx.benign.TPM  : matrix (rows genes, columns subject) of gene TPM of GTEx normal prostate samples
+GTEx.benign.TPM  : matrix (rows genes, columns subject) of GTEx normal prostate samples gene TPM
 
 
 #### Transcript-level analysis
-benign.FPKM : matrix (rows genes, columns subject) of isoform FPKM of benign prostate samples
+benign.FPKM : matrix (rows genes, columns subject) of benign prostate samples isoform FPKM
 
-PCa.FPKM : matrix (rows genes, columns subject) of isoform FPKM of PCa samples
+PCa.FPKM : matrix (rows genes, columns subject) of PCa samples isoform FPKM 
 
-CRPC.FPKM : matrix (rows genes, columns subject) of isoform FPKM of CRPC samples
+CRPC.FPKM : matrix (rows genes, columns subject) of CRPC samples isoform FPKM 
 
-NEPC.FPKM : matrix (rows genes, columns subject) of isoform FPKM of NEPC samples
+NEPC.FPKM : matrix (rows genes, columns subject) of NEPC samples isoform FPKM 
 
-H660.FPKM :  matrix (rows genes, columns subject) of isoform FPKM of H660 cell line
+H660.FPKM :  matrix (rows genes, columns subject) of H660 cell line isoform FPKM
 
-GTEX.isoform : matrix (rows genes, columns subject) contain isoform FPKM of GTEx tissue samples
+GTEX.isoform : matrix (rows genes, columns subject) of GTEx tissue samples isoform FPKM 
